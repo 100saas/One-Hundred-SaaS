@@ -1,0 +1,12 @@
+.DS_Store
+.env
+.env.*
+.wrangler/
+node_modules/
+dist/
+build/
+coverage/
+pb_data/
+*.sqlite
+*.sqlite-journal
+

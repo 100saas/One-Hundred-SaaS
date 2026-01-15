@@ -1,0 +1,46 @@
+name: Feature request
+description: Propose a feature with scope + acceptance criteria.
+labels: ["type:feature", "status:triage", "needs:spec"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Please keep this tight and testable. If it’s big, propose a small first slice.
+  - type: input
+    id: area
+    attributes:
+      label: Area / tool
+      description: Which tool/module does this belong to? (ex: `tool:vote`, `platform`, `bridge:github`)
+      placeholder: tool:<slug> or platform or bridge:<name>
+    validations:
+      required: true
+  - type: textarea
+    id: problem
+    attributes:
+      label: Problem
+      description: What are you trying to accomplish?
+    validations:
+      required: true
+  - type: textarea
+    id: proposal
+    attributes:
+      label: Proposed solution
+      description: What should we build? Include minimal UX and API expectations.
+    validations:
+      required: true
+  - type: textarea
+    id: acceptance
+    attributes:
+      label: Acceptance criteria
+      placeholder: |
+        - [ ] ...
+        - [ ] ...
+    validations:
+      required: true
+  - type: textarea
+    id: alternatives
+    attributes:
+      label: Alternatives considered
+    validations:
+      required: false
+
