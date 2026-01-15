@@ -1,6 +1,6 @@
 # One Hundred SaaS (100saas)
 
-This repo is the public monorepo for the **100saas tool suite**.
+This repo is the public monorepo for the **100saas tool suite**
 
 ## What this is
 
