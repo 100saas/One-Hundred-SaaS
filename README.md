@@ -26,6 +26,7 @@ This repo is the public monorepo for the **100saas tool suite**.
 - Adding a new tool: `docs/ADDING_A_TOOL.md`
 - Roadmap: `docs/ROADMAP.md`
 - FAQ: `docs/FAQ.md`
+- Stack standard: `docs/STACK.md`
 - Licensing: `docs/LICENSING.md`
 - Maintainers/triage: `docs/TRIAGE.md`
 - Maintainer release checklist: `docs/RELEASE.md`
