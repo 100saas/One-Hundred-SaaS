@@ -1,5 +1,4 @@
 // Signoff.100SaaS (Tool 24) — PocketBase hooks
-// Subdomain: signoff.100saas.com
 //
 // Implements:
 // - Shared Kernel: RevenueCat entitlement sync webhook

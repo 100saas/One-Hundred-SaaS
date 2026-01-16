@@ -1,10 +1,6 @@
 # Spy.100SaaS (Competitor Change Monitor) — PocketBase schema
 
-Source of truth: `NEW_PRD/01_50_BATCH.md` for Tool 38.
-
 ## Shared Kernel collections (mandatory)
-
-See: `NEW_PRD/00_SHARED_KERNEL.md`
 
 ## Tool collections
 
@@ -31,5 +27,3 @@ See: `NEW_PRD/00_SHARED_KERNEL.md`
 ## Worker
 
 Worker script:
-- `NEW_PRD/workers/spy/worker.js`
-

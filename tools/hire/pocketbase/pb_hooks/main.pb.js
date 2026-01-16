@@ -1,5 +1,4 @@
 // Hire.100SaaS (Tool 42) — PocketBase hooks
-// Subdomain: hire.100saas.com
 //
 // Implements:
 // - Shared Kernel: RevenueCat entitlement sync webhook

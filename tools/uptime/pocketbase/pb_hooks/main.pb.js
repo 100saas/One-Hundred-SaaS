@@ -1,5 +1,4 @@
 // Uptime.100SaaS (Tool 18) — PocketBase hooks
-// Subdomain: uptime.100saas.com
 //
 // Implements:
 // - Shared Kernel: RevenueCat entitlement sync webhook

@@ -1,7 +1,5 @@
 // Generated scaffold for Pay.100SaaS (Contractor Portal) (Tool 10)
-// Subdomain: pay.100saas.com
 //
-// Source of truth: NEW_PRD/00_SHARED_KERNEL.md + NEW_PRD/01_50_BATCH.md
 //
 // Implements:
 // - Shared Kernel: RevenueCat entitlement sync webhook

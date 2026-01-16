@@ -1,5 +1,4 @@
 // Approve.100SaaS (Tool 21) — PocketBase hooks
-// Subdomain: approve.100saas.com
 //
 // Implements:
 // - Shared Kernel: RevenueCat entitlement sync webhook

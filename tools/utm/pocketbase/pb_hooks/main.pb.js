@@ -1,5 +1,4 @@
 // UTM.100SaaS (Tool 31) — PocketBase hooks
-// Subdomain: utm.100saas.com
 //
 // Implements:
 // - Shared Kernel: RevenueCat entitlement sync webhook

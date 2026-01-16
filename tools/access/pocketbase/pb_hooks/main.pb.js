@@ -1,5 +1,4 @@
 // Access.100SaaS (Tool 50) — PocketBase hooks
-// Subdomain: access.100saas.com
 //
 // Implements:
 // - Shared Kernel: RevenueCat entitlement sync webhook

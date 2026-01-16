@@ -1,10 +1,6 @@
 # Handoff.100SaaS (Deliverable Portal) — PocketBase schema
 
-Source of truth: `NEW_PRD/01_50_BATCH.md` for Tool 29.
-
 ## Shared Kernel collections (mandatory)
-
-See: `NEW_PRD/00_SHARED_KERNEL.md`
 
 ## Tool collections
 
@@ -27,4 +23,3 @@ See: `NEW_PRD/00_SHARED_KERNEL.md`
   - `label` (text)
 - API Rules:
   - Public view by token is typically done by filtering `package.share_token`
-

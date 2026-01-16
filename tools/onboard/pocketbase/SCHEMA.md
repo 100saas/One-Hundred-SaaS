@@ -1,10 +1,6 @@
 # Onboard.100SaaS (Checklists) — PocketBase schema
 
-Source of truth: `NEW_PRD/01_50_BATCH.md` for Tool 15.
-
 ## Shared Kernel collections (mandatory)
-
-See: `NEW_PRD/00_SHARED_KERNEL.md`
 
 ## Tool collections
 
@@ -27,8 +23,6 @@ See: `NEW_PRD/00_SHARED_KERNEL.md`
 ## Widget hosting
 
 Widget script:
-- `NEW_PRD/tools/onboard-widget/public/checklist.js`
 
 Embed:
 `<script src="https://onboard.example.com/checklist.js?tenant=TENANT_ID&template=TEMPLATE_ID&user=END_USER_ID" defer></script>`
-

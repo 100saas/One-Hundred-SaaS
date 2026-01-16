@@ -1,10 +1,6 @@
 # Approve.100SaaS (Visual Feedback) — PocketBase schema
 
-Source of truth: `NEW_PRD/01_50_BATCH.md` for Tool 21.
-
 ## Shared Kernel collections (mandatory)
-
-See: `NEW_PRD/00_SHARED_KERNEL.md`
 
 ## Tool collections
 
@@ -34,4 +30,3 @@ See: `NEW_PRD/00_SHARED_KERNEL.md`
   - `status` (select: `open`, `resolved`)
 - API Rules:
   - Public create/view by token is typically done by filtering `proof.project.share_token`.
-

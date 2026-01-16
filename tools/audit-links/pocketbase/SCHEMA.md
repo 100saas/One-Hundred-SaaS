@@ -1,12 +1,6 @@
 # Audit.100SaaS (Link Broken Checker) — PocketBase schema
 
-Source of truth: `NEW_PRD/01_50_BATCH.md` for Tool 34.
-
-Subdomain: `scan.100saas.com` (avoids conflict with Tool 7).
-
 ## Shared Kernel collections (mandatory)
-
-See: `NEW_PRD/00_SHARED_KERNEL.md`
 
 ## Tool collections
 
@@ -35,4 +29,3 @@ See: `NEW_PRD/00_SHARED_KERNEL.md`
 ## Worker
 
 Crawler worker script:
-- `NEW_PRD/workers/audit/worker.js`

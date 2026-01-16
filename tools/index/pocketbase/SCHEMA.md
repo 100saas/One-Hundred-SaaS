@@ -1,10 +1,6 @@
 # Index.100SaaS (GSC Monitor) — PocketBase schema
 
-Source of truth: `NEW_PRD/01_50_BATCH.md` for Tool 35.
-
 ## Shared Kernel collections (mandatory)
-
-See: `NEW_PRD/00_SHARED_KERNEL.md`
 
 ## Tool collections
 
@@ -31,4 +27,3 @@ See: `NEW_PRD/00_SHARED_KERNEL.md`
 ## Notes
 
 - Actual GSC URL inspection requires service account + site property permissions.
-
