@@ -1,6 +1,6 @@
 # One Hundred SaaS (100saas)
 
-This repo is the public monorepo for the **100saas tool suite**
+This repo is the public monorepo for the **100saas tool suite**.
 
 ## What this is
 
@@ -13,6 +13,13 @@ This repo is the public monorepo for the **100saas tool suite**
 - `kernel/` — shared code used by many tools.
 - `tools/<toolSlug>/` — each tool lives in its own folder.
   - Today, the default backend for tools is **PocketBase** (see below).
+
+## Where to start
+
+- Run a tool locally: `docs/SELF_HOST.md`
+- How we work in GitHub: `docs/GOVERNANCE.md`
+- Shared backend kernel: `docs/KERNEL.md`
+- Adding a new tool: `docs/ADDING_A_TOOL.md`
 
 ## Why PocketBase (for now)
 
