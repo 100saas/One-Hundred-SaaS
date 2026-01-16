@@ -1,3 +1,4 @@
+- Good first issues: https://github.com/100saas/One-Hundred-SaaS/issues?q=is%3Aissue+is%3Aopen+label%3A%22good+first+issue%22
 # Sharing / recruiting contributors
 
 This is the short version of how to talk about the project.
