@@ -1,0 +1,33 @@
+name: merge-by-vote
+
+on:
+  workflow_dispatch:
+  schedule:
+    # Daily at 00:10 UTC
+    - cron: "10 0 * * *"
+
+permissions:
+  contents: write
+  pull-requests: write
+  issues: write
+
+concurrency:
+  group: merge-by-vote
+  cancel-in-progress: false
+
+jobs:
+  merge:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+      - name: Merge top-voted PR (label: vote-merge)
+        env:
+          GH_OWNER: 100saas
+          GH_REPO: One-Hundred-SaaS
+          MERGE_VOTE_LABEL: vote-merge
+          MERGE_METHOD: squash
+        run: node scripts/merge_by_vote.mjs
+

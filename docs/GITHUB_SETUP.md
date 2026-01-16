@@ -18,6 +18,9 @@ export GITHUB_TOKEN=...   # classic token with repo scope
 node scripts/setup_labels.mjs
 ```
 
+This includes `vote-merge` for the optional merge-by-vote loop:
+- `docs/MERGE_BY_VOTE.md`
+
 ## Suggested workflow
 
 - **Ideas** start as Discussions.

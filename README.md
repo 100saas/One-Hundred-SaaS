@@ -32,6 +32,7 @@ This repo is the public monorepo for the **100saas tool suite**.
 - Maintainer release checklist: `docs/RELEASE.md`
 - Ship notes template: `docs/SHIP_NOTES.md`
 - Endpoints index: `docs/ENDPOINTS.md`
+- Merge-by-vote loop: `docs/MERGE_BY_VOTE.md`
 
 ## Why PocketBase (for now)
 
