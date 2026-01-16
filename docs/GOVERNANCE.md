@@ -34,3 +34,5 @@ Create one GitHub Project with views:
 
 Keep it simple; don’t add custom fields until you need them.
 
+Current project:
+- `https://github.com/orgs/100saas/projects/1`
