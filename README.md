@@ -19,6 +19,7 @@ This repo is the public monorepo for the **100saas tool suite**.
 ## Where to start
 
 - Run a tool locally: `docs/SELF_HOST.md`
+- Tool catalog: `docs/TOOLS.md`
 - First contribution: `docs/GETTING_STARTED.md`
 - How we work in GitHub: `docs/GOVERNANCE.md`
 - Shared backend kernel: `docs/KERNEL.md`
