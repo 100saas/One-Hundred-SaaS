@@ -5,6 +5,9 @@ We keep ship notes lightweight. The goal is to:
 - thank contributors
 - point newcomers to easy next work
 
+Latest ship note:
+- `https://github.com/100saas/One-Hundred-SaaS/discussions/48`
+
 ## Template
 
 Copy/paste into a GitHub Discussion (or a `SHIP_NOTES/` folder later).
@@ -35,4 +38,3 @@ Copy/paste into a GitHub Discussion (or a `SHIP_NOTES/` folder later).
   - `https://github.com/100saas/One-Hundred-SaaS/discussions/1`
 - How to contribute:
   - `https://github.com/100saas/One-Hundred-SaaS/discussions/7`
-
