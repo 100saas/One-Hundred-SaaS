@@ -10,6 +10,13 @@ node scripts/pb/run.mjs <toolSlug>
 
 See: `docs/SELF_HOST.md`.
 
+## How do I pick a tool?
+
+Pick something you actually want to run this week. A few easy starting points:
+- Customer feedback: `vote`, `nps`, `churn`
+- Support/docs: `help`, `ticket`
+- Monitoring: `uptime`, `status`
+
 | # | Tool | Slug | Folder | Run |
 |---:|---|---|---|---|
 | 2 | Archive.100SaaS (Compliance) | `archive` | [`tools/archive`](../tools/archive) | `node scripts/pb/run.mjs archive` |
