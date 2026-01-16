@@ -28,6 +28,8 @@ This repo is the public monorepo for the **100saas tool suite**.
 - FAQ: `docs/FAQ.md`
 - Licensing: `docs/LICENSING.md`
 - Maintainers/triage: `docs/TRIAGE.md`
+- Maintainer release checklist: `docs/RELEASE.md`
+- Ship notes template: `docs/SHIP_NOTES.md`
 - Endpoints index: `docs/ENDPOINTS.md`
 
 ## Why PocketBase (for now)
