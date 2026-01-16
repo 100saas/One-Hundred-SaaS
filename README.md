@@ -17,9 +17,12 @@ This repo is the public monorepo for the **100saas tool suite**.
 ## Where to start
 
 - Run a tool locally: `docs/SELF_HOST.md`
+- First contribution: `docs/GETTING_STARTED.md`
 - How we work in GitHub: `docs/GOVERNANCE.md`
 - Shared backend kernel: `docs/KERNEL.md`
 - Adding a new tool: `docs/ADDING_A_TOOL.md`
+- Roadmap: `docs/ROADMAP.md`
+- FAQ: `docs/FAQ.md`
 
 ## Why PocketBase (for now)
 
@@ -44,3 +47,5 @@ Self‑host docs will live under `docs/` as we keep tightening the workflow.
 After tool #50, we keep shipping the next highest‑impact tool the community wants:
 - Discussions: `https://github.com/100saas/One-Hundred-SaaS/discussions`
 - Start here: `https://github.com/100saas/One-Hundred-SaaS/discussions/1`
+- How to contribute: `https://github.com/100saas/One-Hundred-SaaS/discussions/7`
+- Tool request template: `https://github.com/100saas/One-Hundred-SaaS/discussions/8`
