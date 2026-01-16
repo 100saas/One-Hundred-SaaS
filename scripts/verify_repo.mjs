@@ -14,6 +14,9 @@ const forbiddenPatterns = [
   /BEGIN (RSA|EC|OPENSSH|DSA) PRIVATE KEY/,
   /-----BEGIN PRIVATE KEY-----/,
   /AKIA[0-9A-Z]{16}/, // common AWS access key prefix
+  /AIzaSy[0-9A-Za-z_-]{20,}/, // common Google API key prefix
+  /xox[baprs]-[0-9A-Za-z-]{10,}/, // common Slack token prefixes
+  /-----BEGIN CERTIFICATE-----/,
 ]
 
 async function listFiles(dir) {
