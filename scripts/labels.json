@@ -16,5 +16,7 @@
   { "name": "status:shipped", "color": "0e8a16", "description": "Shipped" },
 
   { "name": "good first issue", "color": "7057ff", "description": "Good first contribution" },
-  { "name": "help wanted", "color": "008672", "description": "Extra attention needed" }
+  { "name": "help wanted", "color": "008672", "description": "Extra attention needed" },
+
+  { "name": "vote-merge", "color": "c5def5", "description": "Eligible for merge-by-vote automation" }
 ]
