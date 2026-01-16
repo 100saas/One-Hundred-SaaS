@@ -12,6 +12,17 @@ if (!token) {
 
 const labelsPath = path.join(process.cwd(), 'scripts', 'labels.json')
 const labels = JSON.parse(await fs.readFile(labelsPath, 'utf8'))
+const includeToolLabels = String(process.env.INCLUDE_TOOL_LABELS || '').trim() === '1'
+
+async function listToolSlugs() {
+  const toolsDir = path.join(process.cwd(), 'tools')
+  const items = await fs.readdir(toolsDir, { withFileTypes: true })
+  return items.filter((d) => d.isDirectory()).map((d) => d.name).sort()
+}
+
+function toolLabel(slug) {
+  return { name: `tool:${slug}`, color: '1d76db', description: `Applies to tool: ${slug}` }
+}
 
 async function gh(method, url, body) {
   const res = await fetch(url, {
@@ -58,8 +69,16 @@ const existing = await listExisting()
 const existingNames = new Set(existing.map((l) => l.name))
 console.log(`existing labels: ${existingNames.size}`)
 
-for (const l of labels) {
+let all = labels
+if (includeToolLabels) {
+  const slugs = await listToolSlugs()
+  all = [...labels, ...slugs.map(toolLabel)]
+  console.log(`including tool labels: ${slugs.length}`)
+} else {
+  console.log('tool labels: skipped (set INCLUDE_TOOL_LABELS=1 to include)')
+}
+
+for (const l of all) {
   const r = await createOrUpdate(l)
   console.log(`${r.action}: ${r.name}`)
 }
-
