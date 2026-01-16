@@ -1,0 +1,17 @@
+[
+  { "name": "type:bug", "color": "d73a4a", "description": "Bug / regression" },
+  { "name": "type:feature", "color": "a2eeef", "description": "New feature" },
+  { "name": "type:chore", "color": "cfd3d7", "description": "Refactor / housekeeping" },
+  { "name": "type:security", "color": "b60205", "description": "Security-related change" },
+
+  { "name": "priority:p0", "color": "b60205", "description": "Drop everything" },
+  { "name": "priority:p1", "color": "d93f0b", "description": "High priority" },
+  { "name": "priority:p2", "color": "fbca04", "description": "Normal priority" },
+
+  { "name": "status:triage", "color": "ededed", "description": "Needs triage" },
+  { "name": "status:ready", "color": "0e8a16", "description": "Ready to start" },
+  { "name": "status:in-progress", "color": "1d76db", "description": "In progress" },
+  { "name": "status:blocked", "color": "5319e7", "description": "Blocked" },
+  { "name": "status:shipped", "color": "0e8a16", "description": "Shipped" }
+]
+
