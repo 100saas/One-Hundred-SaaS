@@ -61,6 +61,14 @@ node scripts/pb/run.mjs refunds --port 8091
 
 ## Troubleshooting
 
+## Local run FAQ
+
+- **Do I need API keys?** Usually no. Most integrations are optional; missing keys should return safe `503 <service>_not_configured`.
+- **How do I reset local data?** Each run writes into `.runtime/<toolSlug>/`. If you want to start fresh, remove that folder and rerun the tool. (We intentionally avoid copy/paste “dangerous delete commands” in docs.)
+- **Can I run multiple tools?** Yes—use different ports (see “Running multiple tools” above).
+- **Where is the PocketBase admin UI?** `http://127.0.0.1:<port>/_/`
+- **Where is the API base?** `http://127.0.0.1:<port>/api/`
+
 ### “Port already in use”
 
 Run on another port:
