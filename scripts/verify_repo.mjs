@@ -8,6 +8,9 @@ const forbiddenPatterns = [
   /pk_(live|test)_[0-9a-zA-Z]{10,}/,
   /ghp_[0-9A-Za-z]{20,}/,
   /gho_[0-9A-Za-z]{20,}/,
+  /github_pat_[0-9A-Za-z_]{20,}/,
+  /ghs_[0-9A-Za-z]{20,}/, // common GitHub Actions token prefix
+  /ghr_[0-9A-Za-z]{20,}/, // common GitHub refresh token prefix
   /CLOUDFLARE_API_TOKEN\s*=/,
   /CF_API_TOKEN\s*=/,
   /GITHUB_PAT\s*=/,
