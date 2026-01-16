@@ -147,6 +147,9 @@ async function main() {
   console.log(`- runtime: ${runtimeRoot}`)
   console.log(`- admin:   http://${host}:${port}/_/`)
   console.log(`- api:     http://${host}:${port}/api/\n`)
+  console.log('Next steps:')
+  console.log('- open the Admin UI and create an admin user (first run)')
+  console.log(`- your local data lives in: ${runtimeRoot}\n`)
 
   const child = spawn(pbPath, ['serve', '--http', `${host}:${port}`], {
     cwd: runtimeRoot,
