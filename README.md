@@ -5,8 +5,8 @@ This repo is the public monorepo for the **100saas tool suite**
 ## What this is
 
 - A growing set of small, practical tools that replace pricey single‑purpose SaaS.
-- A hosted option (convenience) **and** a self‑host option (control).
-- A public workflow: bugs + requests live in Issues/Discussions; code ships via PRs.
+- A build-in-public workflow: requests live in Issues/Discussions; code ships via PRs.
+- PocketBase-first by default, so contributors can run tools locally quickly.
 
 ## How the repo is organized
 
@@ -37,4 +37,3 @@ Self‑host docs will live under `docs/` as we keep tightening the workflow.
 After tool #50, we keep shipping the next highest‑impact tool the community wants:
 - Discussions: `https://github.com/100saas/One-Hundred-SaaS/discussions`
 - Start here: `https://github.com/100saas/One-Hundred-SaaS/discussions/1`
-
