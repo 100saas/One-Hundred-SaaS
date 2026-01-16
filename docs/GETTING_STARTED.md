@@ -48,6 +48,13 @@ node scripts/verify_repo.mjs
 When adding UI, use the repo’s default stack:
 - `docs/STACK.md`
 
+## Optional: vote to merge
+
+Some PRs are tagged for “merge by vote” to keep momentum:
+- Label: `vote-merge`
+- How it works: `docs/MERGE_BY_VOTE.md`
+- Vote list (GitHub): `https://github.com/100saas/One-Hundred-SaaS/pulls?q=is%3Apr+is%3Aopen+label%3Avote-merge`
+
 ## Where to ask questions
 
 - Discussions: `https://github.com/100saas/One-Hundred-SaaS/discussions`

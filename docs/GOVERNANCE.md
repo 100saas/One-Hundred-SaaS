@@ -37,6 +37,13 @@ Keep it simple; don’t add custom fields until you need them.
 Current project:
 - `https://github.com/orgs/100saas/projects/1`
 
+## Optional: “merge by vote”
+
+We support a lightweight “vote to merge” loop to keep momentum and make contributing fun, while keeping safety guardrails in place.
+
+- How it works + guardrails: `docs/MERGE_BY_VOTE.md`
+- Eligible PR label: `vote-merge`
+
 ## Maintainers
 
 - Maintainer expectations: `docs/MAINTAINERS.md`
