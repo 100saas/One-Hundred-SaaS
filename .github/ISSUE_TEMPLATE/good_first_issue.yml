@@ -1,0 +1,54 @@
+name: "Good first issue nomination"
+description: "Propose a small, well-scoped task suitable for a first-time contributor."
+labels: ["good first issue", "type:docs"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for helping make this repo easier to contribute to.
+
+        A good first issue should be:
+        - small (1–2 hours)
+        - clear acceptance criteria
+        - easy to verify locally
+
+  - type: input
+    id: tool
+    attributes:
+      label: Tool slug (optional)
+      description: "If this applies to a specific tool, provide its slug (e.g. `vote`, `churn`)."
+      placeholder: "vote"
+    validations:
+      required: false
+
+  - type: textarea
+    id: problem
+    attributes:
+      label: Problem
+      description: "What’s confusing/broken/missing today?"
+      placeholder: "Docs for running tool X locally are missing step Y..."
+    validations:
+      required: true
+
+  - type: textarea
+    id: acceptance
+    attributes:
+      label: Acceptance criteria
+      description: "What must be true for this issue to be considered done?"
+      placeholder: |
+        - [ ] `docs/SELF_HOST.md` includes ...
+        - [ ] `node scripts/verify_repo.mjs` passes
+    validations:
+      required: true
+
+  - type: textarea
+    id: steps
+    attributes:
+      label: How to verify locally
+      description: "Exact commands/steps someone can run to confirm the fix."
+      placeholder: |
+        - `node scripts/pb/run.mjs <toolSlug>`
+        - open `http://127.0.0.1:8090/_/`
+    validations:
+      required: true
+
