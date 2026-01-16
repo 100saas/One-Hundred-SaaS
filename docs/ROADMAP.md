@@ -4,7 +4,14 @@ We track work in GitHub, not in a separate system.
 
 ## Project board
 
-- `https://github.com/orgs/100saas/projects/1`
+- Master roadmap: `https://github.com/orgs/100saas/projects/1`
+
+### Sub-project boards (separate backlogs)
+
+If you prefer focused backlogs instead of one giant board, we also use sub-projects:
+- Kernel: `https://github.com/orgs/100saas/projects/2`
+- Frontend: `https://github.com/orgs/100saas/projects/3`
+- Batch 1 (Tools 1–3): `https://github.com/orgs/100saas/projects/4`
 
 This board is the source of truth for:
 - backlog (what we want to build)
