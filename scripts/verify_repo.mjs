@@ -20,6 +20,8 @@ async function listFiles(dir) {
     if (it.name === '.git') continue
     if (it.name === 'node_modules') continue
     if (it.name === 'pb_data') continue
+    if (it.name === '.runtime') continue
+    if (it.name === '.cache') continue
     const full = path.join(dir, it.name)
     if (it.isDirectory()) out.push(...(await listFiles(full)))
     else out.push(full)
@@ -74,4 +76,3 @@ main().catch((err) => {
   console.error(err?.stack || String(err))
   process.exit(1)
 })
-
