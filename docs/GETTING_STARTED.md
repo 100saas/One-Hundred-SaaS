@@ -22,13 +22,19 @@ node scripts/pb/run.mjs recover
 3) Open the Admin UI: `http://127.0.0.1:8090/_/`
 4) Create an admin user
 5) Make a tiny doc fix in `tools/recover/README.md`
-6) Run the repo verifier:
+6) Run the syntax check (quick failure if any hooks/migrations are broken):
+
+```bash
+node scripts/check_js_syntax.mjs
+```
+
+7) Run the repo verifier:
 
 ```bash
 node scripts/verify_repo.mjs
 ```
 
-7) Open a PR
+8) Open a PR
 
 ## What to work on
 
