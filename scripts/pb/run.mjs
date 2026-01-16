@@ -71,14 +71,23 @@ async function downloadPocketBase(version, binDir) {
 
   await fs.mkdir(binDir, { recursive: true })
 
+  const isMac = os.platform() === 'darwin'
+  const isLinux = os.platform() === 'linux'
+  function installHint(cmd) {
+    if (cmd !== 'curl' && cmd !== 'unzip') return ''
+    if (isMac) return 'Try: brew install curl unzip'
+    if (isLinux) return 'Try: sudo apt-get update && sudo apt-get install -y curl unzip'
+    return 'Install it and retry.'
+  }
+
   // Use system curl + unzip to avoid extra deps.
   // Fail early with a helpful message if they aren't available.
   for (const cmd of ['curl', 'unzip']) {
     await new Promise((resolve, reject) => {
       const p = spawn(cmd, ['--version'], { stdio: 'ignore' })
-      p.on('exit', (code) => (code === 0 ? resolve() : reject(new Error(`Missing dependency: ${cmd}`))))
+      p.on('exit', (code) => (code === 0 ? resolve() : reject(new Error(`Missing dependency: ${cmd}. ${installHint(cmd)}`))))
     }).catch((e) => {
-      throw new Error(`${e.message}. Install it and retry.`)
+      throw new Error(String(e.message || e))
     })
   }
 

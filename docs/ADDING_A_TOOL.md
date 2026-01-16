@@ -28,6 +28,18 @@ This creates:
 - `tools/<slug>/pocketbase/pb_hooks/main.pb.js` (hooks entrypoint)
 - `tools/<slug>/pocketbase/pb_migrations/0001_init_schema.js` (starter migration)
 
+## Tool README convention (for the tool catalog)
+
+`docs/TOOLS.md` is generated from `tools/<slug>/README.md`. To keep the catalog sortable:
+- include `**Tool N**` somewhere near the top of the tool README
+- keep the first line as an H1 (`# ...`)
+
+After adding a tool, update the catalog:
+
+```bash
+node scripts/generate_tools_catalog.mjs
+```
+
 ## Test locally
 
 ```bash
@@ -44,4 +56,3 @@ Create an admin user, then verify:
 - Keep it small (one tool, or one kernel change).
 - Link the Issue/Discussion.
 - Do not commit secrets.
-
