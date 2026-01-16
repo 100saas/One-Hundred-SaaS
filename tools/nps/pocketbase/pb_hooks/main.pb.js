@@ -1,5 +1,4 @@
 // NPS.100SaaS (Tool 13) — PocketBase hooks
-// Subdomain: nps.100saas.com
 //
 // Implements:
 // - Shared Kernel: RevenueCat entitlement sync webhook

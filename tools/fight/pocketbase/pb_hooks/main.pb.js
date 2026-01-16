@@ -1,7 +1,5 @@
 // Generated scaffold for Fight.100SaaS (Dispute Manager) (Tool 3)
-// Subdomain: fight.100saas.com
 //
-// Source of truth: NEW_PRD/00_SHARED_KERNEL.md + NEW_PRD/01_50_BATCH.md
 //
 // Implements:
 // - Shared Kernel: RevenueCat entitlement sync webhook

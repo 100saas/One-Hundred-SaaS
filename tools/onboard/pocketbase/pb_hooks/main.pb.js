@@ -1,5 +1,4 @@
 // Onboard.100SaaS (Tool 15) — PocketBase hooks
-// Subdomain: onboard.100saas.com
 //
 // Implements:
 // - Shared Kernel: RevenueCat entitlement sync webhook

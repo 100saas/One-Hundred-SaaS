@@ -1,5 +1,4 @@
 // Tours.100SaaS (Tool 16) — PocketBase hooks
-// Subdomain: tours.100saas.com
 //
 // Implements:
 // - Shared Kernel: RevenueCat entitlement sync webhook

@@ -1,5 +1,4 @@
 // Audit.100SaaS (Tool 34) — PocketBase hooks
-// Subdomain: audit.100saas.com (PRD conflict with Tool 7; see NEW_PRD/PROGRESS.md)
 //
 // Implements:
 // - Shared Kernel: RevenueCat entitlement sync webhook

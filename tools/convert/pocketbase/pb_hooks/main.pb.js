@@ -1,5 +1,4 @@
 // Convert.100SaaS (Tool 37) — PocketBase hooks
-// Subdomain: convert.100saas.com
 //
 // Implements:
 // - Shared Kernel: RevenueCat entitlement sync webhook

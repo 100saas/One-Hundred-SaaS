@@ -1,5 +1,4 @@
 // Ref.100SaaS (Tool 43) — PocketBase hooks
-// Subdomain: ref.100saas.com
 //
 // Implements:
 // - Shared Kernel: RevenueCat entitlement sync webhook

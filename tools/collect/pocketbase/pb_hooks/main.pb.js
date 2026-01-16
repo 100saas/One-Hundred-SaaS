@@ -1,5 +1,4 @@
 // Collect.100SaaS (Tool 25) — PocketBase hooks
-// Subdomain: collect.100saas.com
 //
 // Implements:
 // - Shared Kernel: RevenueCat entitlement sync webhook

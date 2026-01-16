@@ -1,10 +1,6 @@
 # Retainer.100SaaS (Hour Tracker) — PocketBase schema
 
-Source of truth: `NEW_PRD/01_50_BATCH.md` for Tool 30.
-
 ## Shared Kernel collections (mandatory)
-
-See: `NEW_PRD/00_SHARED_KERNEL.md`
 
 ## Tool collections
 
@@ -30,4 +26,3 @@ See: `NEW_PRD/00_SHARED_KERNEL.md`
 - API Rules:
   - List/View:
     - `tenant.memberships.user.id ?= @request.auth.id`
-

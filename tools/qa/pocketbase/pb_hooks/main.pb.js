@@ -1,5 +1,4 @@
 // QA.100SaaS (Tool 32) — PocketBase hooks
-// Subdomain: qa.100saas.com
 //
 // Implements:
 // - Shared Kernel: RevenueCat entitlement sync webhook

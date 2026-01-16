@@ -1,5 +1,4 @@
 // Route.100SaaS (Tool 40) — PocketBase hooks
-// Subdomain: route.100saas.com
 //
 // Implements:
 // - Shared Kernel: RevenueCat entitlement sync webhook

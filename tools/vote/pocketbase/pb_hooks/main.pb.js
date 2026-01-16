@@ -1,7 +1,5 @@
 // Generated scaffold for Vote.100SaaS (Feature Board) (Tool 11)
-// Subdomain: vote.100saas.com
 //
-// Source of truth: NEW_PRD/00_SHARED_KERNEL.md + NEW_PRD/01_50_BATCH.md
 //
 // Implements:
 // - Shared Kernel: RevenueCat entitlement sync webhook

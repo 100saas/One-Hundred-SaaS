@@ -1,5 +1,4 @@
 // Portal.100SaaS (Tool 22) — PocketBase hooks
-// Subdomain: portal.100saas.com
 //
 // Implements:
 // - Shared Kernel: RevenueCat entitlement sync webhook

@@ -1,5 +1,4 @@
 // Spy.100SaaS (Tool 38) — PocketBase hooks
-// Subdomain: spy.100saas.com
 //
 // Implements:
 // - Shared Kernel: RevenueCat entitlement sync webhook

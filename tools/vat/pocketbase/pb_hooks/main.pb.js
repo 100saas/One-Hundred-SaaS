@@ -1,5 +1,4 @@
 // VAT.100SaaS (Tool 6) — PocketBase hooks
-// Subdomain: vat.100saas.com
 //
 // Implements:
 // - Shared Kernel: RevenueCat entitlement sync webhook

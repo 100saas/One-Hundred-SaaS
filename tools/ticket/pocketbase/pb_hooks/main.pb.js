@@ -1,5 +1,4 @@
 // Ticket.100SaaS (Tool 19) — PocketBase hooks
-// Subdomain: ticket.100saas.com
 //
 // Implements:
 // - Shared Kernel: RevenueCat entitlement sync webhook

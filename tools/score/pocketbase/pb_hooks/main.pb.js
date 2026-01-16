@@ -1,5 +1,4 @@
 // Score.100SaaS (Tool 41) — PocketBase hooks
-// Subdomain: score.100saas.com
 //
 // Implements:
 // - Shared Kernel: RevenueCat entitlement sync webhook

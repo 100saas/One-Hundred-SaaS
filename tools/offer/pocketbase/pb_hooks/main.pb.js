@@ -1,5 +1,4 @@
 // Offer.100SaaS (Tool 45) — PocketBase hooks
-// Subdomain: offer.100saas.com
 //
 // Implements:
 // - Shared Kernel: RevenueCat entitlement sync webhook

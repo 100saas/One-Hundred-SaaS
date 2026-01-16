@@ -1,5 +1,4 @@
 // Retainer.100SaaS (Tool 30) — PocketBase hooks
-// Subdomain: retainer.100saas.com
 //
 // Implements:
 // - Shared Kernel: RevenueCat entitlement sync webhook
