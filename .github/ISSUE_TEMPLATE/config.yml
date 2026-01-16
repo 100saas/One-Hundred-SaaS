@@ -9,4 +9,6 @@ contact_links:
   - name: "Tool request template"
     url: "https://github.com/100saas/One-Hundred-SaaS/discussions/8"
     about: "Use this format to propose a new tool"
-
+  - name: "Nominate a good first issue"
+    url: "https://github.com/100saas/One-Hundred-SaaS/issues/new?template=good_first_issue.yml"
+    about: "Suggest a small, well-scoped task for first-time contributors"
