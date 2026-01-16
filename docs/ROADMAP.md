@@ -12,6 +12,16 @@ If you prefer focused backlogs instead of one giant board, we also use sub-proje
 - Kernel: `https://github.com/orgs/100saas/projects/2`
 - Frontend: `https://github.com/orgs/100saas/projects/3`
 - Batch 1 (Tools 1–3): `https://github.com/orgs/100saas/projects/4`
+- Batch 2 (Tools 4–8): `https://github.com/orgs/100saas/projects/5`
+- Batch 3 (Tools 9–13): `https://github.com/orgs/100saas/projects/6`
+- Batch 4 (Tools 14–18): `https://github.com/orgs/100saas/projects/7`
+- Batch 5 (Tools 19–23): `https://github.com/orgs/100saas/projects/8`
+- Batch 6 (Tools 24–28): `https://github.com/orgs/100saas/projects/9`
+- Batch 7 (Tools 29–33): `https://github.com/orgs/100saas/projects/10`
+- Batch 8 (Tools 34–38): `https://github.com/orgs/100saas/projects/11`
+- Batch 9 (Tools 39–43): `https://github.com/orgs/100saas/projects/12`
+- Batch 10 (Tools 44–48): `https://github.com/orgs/100saas/projects/13`
+- Batch 11 (Tools 49–50): `https://github.com/orgs/100saas/projects/14`
 
 This board is the source of truth for:
 - backlog (what we want to build)
