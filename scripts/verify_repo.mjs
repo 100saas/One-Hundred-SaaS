@@ -11,6 +11,9 @@ const forbiddenPatterns = [
   /CLOUDFLARE_API_TOKEN\s*=/,
   /CF_API_TOKEN\s*=/,
   /GITHUB_PAT\s*=/,
+  /BEGIN (RSA|EC|OPENSSH|DSA) PRIVATE KEY/,
+  /-----BEGIN PRIVATE KEY-----/,
+  /AKIA[0-9A-Z]{16}/, // common AWS access key prefix
 ]
 
 async function listFiles(dir) {
@@ -22,6 +25,7 @@ async function listFiles(dir) {
     if (it.name === 'pb_data') continue
     if (it.name === '.runtime') continue
     if (it.name === '.cache') continue
+    if (it.name.startsWith('.env')) continue
     const full = path.join(dir, it.name)
     if (it.isDirectory()) out.push(...(await listFiles(full)))
     else out.push(full)
@@ -57,6 +61,9 @@ async function main() {
   // Shallow secret scan
   const files = await listFiles(root)
   for (const file of files) {
+    // Avoid self-matching on the patterns defined in this file.
+    if (path.relative(root, file).replaceAll('\\', '/') === 'scripts/verify_repo.mjs') continue
+
     // Skip very large binaries if any (shouldn't exist, but be safe)
     const stat = await fs.stat(file)
     if (stat.size > 2_000_000) continue
