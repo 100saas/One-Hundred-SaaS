@@ -19,8 +19,7 @@ PocketBase is the default so contributors can run tools locally quickly.
 - Start here: `https://github.com/100saas/One-Hundred-SaaS/discussions/7`
 - Request a tool: `https://github.com/100saas/One-Hundred-SaaS/discussions/8`
 - Latest ship note: `https://github.com/100saas/One-Hundred-SaaS/discussions/48`
-- Good first issues:
-  - `https://github.com/100saas/One-Hundred-SaaS/issues?q=is%3Aissue+is%3Aopen+label%3A%22good+first+issue%22`
+- Good first issues: https://github.com/100saas/One-Hundred-SaaS/issues?q=is%3Aissue+is%3Aopen+label%3A%22good+first+issue%22
 
 ## What we want help with
 
