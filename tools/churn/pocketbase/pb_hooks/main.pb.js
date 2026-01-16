@@ -1,5 +1,4 @@
 // Churn.100SaaS (Tool 14) — PocketBase hooks
-// Subdomain: churn.100saas.com
 //
 // Implements:
 // - Shared Kernel: RevenueCat entitlement sync webhook

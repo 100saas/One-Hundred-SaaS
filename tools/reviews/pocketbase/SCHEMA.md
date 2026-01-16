@@ -1,10 +1,6 @@
 # Reviews.100SaaS (Review Funnel) — PocketBase schema
 
-Source of truth: `NEW_PRD/01_50_BATCH.md` for Tool 36.
-
 ## Shared Kernel collections (mandatory)
-
-See: `NEW_PRD/00_SHARED_KERNEL.md`
 
 ## Tool collections
 
@@ -27,4 +23,3 @@ See: `NEW_PRD/00_SHARED_KERNEL.md`
   - `contact_email` (text)
 - API Rules:
   - Create: `""` (public)
-

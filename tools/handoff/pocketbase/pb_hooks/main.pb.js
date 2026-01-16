@@ -1,5 +1,4 @@
 // Handoff.100SaaS (Tool 29) — PocketBase hooks
-// Subdomain: handoff.100saas.com
 //
 // Implements:
 // - Shared Kernel: RevenueCat entitlement sync webhook

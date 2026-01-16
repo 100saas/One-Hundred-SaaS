@@ -1,5 +1,4 @@
 // Brief.100SaaS (Tool 33) — PocketBase hooks
-// Subdomain: brief.100saas.com
 //
 // Implements:
 // - Shared Kernel: RevenueCat entitlement sync webhook

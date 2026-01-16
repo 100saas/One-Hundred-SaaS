@@ -1,10 +1,6 @@
 # NPS.100SaaS (Micro-Surveys) — PocketBase schema
 
-Source of truth: `NEW_PRD/01_50_BATCH.md` for Tool 13.
-
 ## Shared Kernel collections (mandatory)
-
-See: `NEW_PRD/00_SHARED_KERNEL.md`
 
 ## Tool collections
 
@@ -30,4 +26,3 @@ See: `NEW_PRD/00_SHARED_KERNEL.md`
 ## Notes
 
 - Validation is enforced in hooks: score range + basic payload sanity.
-

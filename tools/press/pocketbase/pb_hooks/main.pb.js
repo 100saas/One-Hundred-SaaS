@@ -1,5 +1,4 @@
 // Press.100SaaS (Tool 39) — PocketBase hooks
-// Subdomain: press.100saas.com
 //
 // Implements:
 // - Shared Kernel: RevenueCat entitlement sync webhook

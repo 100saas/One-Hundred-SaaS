@@ -1,10 +1,6 @@
 # MRR.100SaaS (Bridge Reporting) — PocketBase schema
 
-Source of truth: `NEW_PRD/01_50_BATCH.md` for Tool 8.
-
 ## Shared Kernel collections (mandatory)
-
-See: `NEW_PRD/00_SHARED_KERNEL.md`
 
 ## Tool collections
 
@@ -37,4 +33,3 @@ See: `NEW_PRD/00_SHARED_KERNEL.md`
 
 - The MRR cron iterates `stripe_connections` and uses `stripe_connections.access_token` to call Stripe for that tenant.
 - If a tenant has no `stripe_connections` record, it will be skipped.
-

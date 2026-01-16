@@ -48,4 +48,3 @@ migrate((db) => {
     dao.saveCollection(c);
   }
 });
-

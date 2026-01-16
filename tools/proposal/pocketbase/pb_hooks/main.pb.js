@@ -1,5 +1,4 @@
 // Proposal.100SaaS (Tool 27) — PocketBase hooks
-// Subdomain: proposal.100saas.com
 //
 // Implements:
 // - Shared Kernel: RevenueCat entitlement sync webhook

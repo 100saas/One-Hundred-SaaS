@@ -1,5 +1,4 @@
 // SOP.100SaaS (Tool 23) — PocketBase hooks
-// Subdomain: sop.100saas.com
 //
 // Implements:
 // - Shared Kernel: RevenueCat entitlement sync webhook

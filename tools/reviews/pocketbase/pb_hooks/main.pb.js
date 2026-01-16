@@ -1,5 +1,4 @@
 // Reviews.100SaaS (Tool 36) — PocketBase hooks
-// Subdomain: reviews.100saas.com
 //
 // Implements:
 // - Shared Kernel: RevenueCat entitlement sync webhook

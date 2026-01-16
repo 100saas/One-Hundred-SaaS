@@ -1,5 +1,4 @@
 // MRR.100SaaS (Tool 8) — PocketBase hooks
-// Subdomain: mrr.100saas.com
 //
 // Implements:
 // - Shared Kernel: RevenueCat entitlement sync webhook

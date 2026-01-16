@@ -1,5 +1,4 @@
 // Dunning.100SaaS (Tool 9) — PocketBase hooks
-// Subdomain: dunning.100saas.com
 //
 // Implements:
 // - Shared Kernel: RevenueCat entitlement sync webhook

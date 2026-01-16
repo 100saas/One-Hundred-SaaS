@@ -1,5 +1,4 @@
 // Timeline.100SaaS (Tool 5) — PocketBase hooks
-// Subdomain: timeline.100saas.com
 //
 // Implements:
 // - Shared Kernel: RevenueCat entitlement sync webhook

@@ -1,10 +1,6 @@
 # Pay.100SaaS (Contractor Portal) — PocketBase schema
 
-Source of truth: `NEW_PRD/01_50_BATCH.md` for Tool 10.
-
 ## Shared Kernel collections (mandatory)
-
-See: `NEW_PRD/00_SHARED_KERNEL.md`
 
 ## Tool collections
 

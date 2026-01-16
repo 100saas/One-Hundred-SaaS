@@ -1,10 +1,6 @@
 # Offer.100SaaS (Offer Letters) — PocketBase schema
 
-Source of truth: `NEW_PRD/01_50_BATCH.md` for Tool 45.
-
 ## Shared Kernel collections (mandatory)
-
-See: `NEW_PRD/00_SHARED_KERNEL.md`
 
 ## Tool collections
 

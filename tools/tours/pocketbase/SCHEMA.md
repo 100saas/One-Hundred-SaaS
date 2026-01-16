@@ -1,10 +1,6 @@
 # Tours.100SaaS (Product Walkthroughs) — PocketBase schema
 
-Source of truth: `NEW_PRD/01_50_BATCH.md` for Tool 16.
-
 ## Shared Kernel collections (mandatory)
-
-See: `NEW_PRD/00_SHARED_KERNEL.md`
 
 ## Tool collections
 
@@ -20,8 +16,6 @@ See: `NEW_PRD/00_SHARED_KERNEL.md`
 ## Widget hosting
 
 Widget script:
-- `NEW_PRD/tools/tours-widget/public/tour.js`
 
 Embed:
 `<script src="https://tours.example.com/tour.js?tenant=TENANT_ID&tour=TOUR_ID" defer></script>`
-

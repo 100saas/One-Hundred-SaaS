@@ -1,5 +1,4 @@
 // Log.100SaaS (Tool 46) — PocketBase hooks
-// Subdomain: log.100saas.com
 //
 // Implements:
 // - Shared Kernel: RevenueCat entitlement sync webhook

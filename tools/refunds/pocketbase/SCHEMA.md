@@ -1,10 +1,6 @@
 # Refunds.100SaaS (Anomaly Detection) — PocketBase schema
 
-Source of truth: `NEW_PRD/01_50_BATCH.md` for Tool 4.
-
 ## Shared Kernel collections (mandatory)
-
-See: `NEW_PRD/00_SHARED_KERNEL.md`
 
 ## Tool collections
 
@@ -41,4 +37,3 @@ See: `NEW_PRD/00_SHARED_KERNEL.md`
     - `tenant.memberships.user.id ?= @request.auth.id`
   - Update:
     - `tenant.memberships.user.id ?= @request.auth.id && tenant.memberships.role = 'owner'`
-
