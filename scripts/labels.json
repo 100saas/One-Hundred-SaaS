@@ -3,6 +3,7 @@
   { "name": "type:feature", "color": "a2eeef", "description": "New feature" },
   { "name": "type:chore", "color": "cfd3d7", "description": "Refactor / housekeeping" },
   { "name": "type:security", "color": "b60205", "description": "Security-related change" },
+  { "name": "type:docs", "color": "0075ca", "description": "Documentation change" },
 
   { "name": "priority:p0", "color": "b60205", "description": "Drop everything" },
   { "name": "priority:p1", "color": "d93f0b", "description": "High priority" },
@@ -12,6 +13,8 @@
   { "name": "status:ready", "color": "0e8a16", "description": "Ready to start" },
   { "name": "status:in-progress", "color": "1d76db", "description": "In progress" },
   { "name": "status:blocked", "color": "5319e7", "description": "Blocked" },
-  { "name": "status:shipped", "color": "0e8a16", "description": "Shipped" }
-]
+  { "name": "status:shipped", "color": "0e8a16", "description": "Shipped" },
 
+  { "name": "good first issue", "color": "7057ff", "description": "Good first contribution" },
+  { "name": "help wanted", "color": "008672", "description": "Extra attention needed" }
+]

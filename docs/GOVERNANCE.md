@@ -36,3 +36,8 @@ Keep it simple; don’t add custom fields until you need them.
 
 Current project:
 - `https://github.com/orgs/100saas/projects/1`
+
+## Maintainers
+
+- Maintainer expectations: `docs/MAINTAINERS.md`
+- Triage process: `docs/TRIAGE.md`

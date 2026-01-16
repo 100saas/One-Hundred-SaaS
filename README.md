@@ -23,6 +23,7 @@ This repo is the public monorepo for the **100saas tool suite**.
 - Adding a new tool: `docs/ADDING_A_TOOL.md`
 - Roadmap: `docs/ROADMAP.md`
 - FAQ: `docs/FAQ.md`
+- Maintainers/triage: `docs/TRIAGE.md`
 
 ## Why PocketBase (for now)
 
