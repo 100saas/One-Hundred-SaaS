@@ -7,6 +7,9 @@ This repo is optimized for building. The fastest path is:
 3) Make a small improvement
 4) Open a PR
 
+Tool index:
+- `docs/TOOLS.md`
+
 ## 10‑minute “hello world” PR
 
 1) Pick any tool, e.g. `recover`
@@ -37,4 +40,3 @@ node scripts/verify_repo.mjs
 ## Where to ask questions
 
 - Discussions: `https://github.com/100saas/One-Hundred-SaaS/discussions`
-
