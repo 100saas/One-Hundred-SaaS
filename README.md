@@ -2,6 +2,8 @@
 
 This repo is the public monorepo for the **100saas tool suite**.
 
+[![CI](https://github.com/100saas/One-Hundred-SaaS/actions/workflows/ci.yml/badge.svg)](https://github.com/100saas/One-Hundred-SaaS/actions/workflows/ci.yml)
+
 ## What this is
 
 - A growing set of small, practical tools that replace pricey single‑purpose SaaS.
@@ -24,6 +26,7 @@ This repo is the public monorepo for the **100saas tool suite**.
 - Roadmap: `docs/ROADMAP.md`
 - FAQ: `docs/FAQ.md`
 - Maintainers/triage: `docs/TRIAGE.md`
+- Endpoints index: `docs/ENDPOINTS.md`
 
 ## Why PocketBase (for now)
 
