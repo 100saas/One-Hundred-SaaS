@@ -1,0 +1,12 @@
+blank_issues_enabled: false
+contact_links:
+  - name: "What should we build next?"
+    url: "https://github.com/100saas/One-Hundred-SaaS/discussions/1"
+    about: "Ideas, requests, and prioritization"
+  - name: "How to contribute"
+    url: "https://github.com/100saas/One-Hundred-SaaS/discussions/7"
+    about: "Start here for first contributions"
+  - name: "Tool request template"
+    url: "https://github.com/100saas/One-Hundred-SaaS/discussions/8"
+    about: "Use this format to propose a new tool"
+
