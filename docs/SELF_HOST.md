@@ -7,6 +7,7 @@ This repo is optimized for **building**. Self-hosting is the fastest way to test
 Prereqs:
 - macOS/Linux (Windows should work via WSL)
 - Node.js 20+
+- `curl` + `unzip` (used to fetch PocketBase)
 
 Run a tool backend locally:
 
@@ -47,4 +48,3 @@ Use different ports:
 node scripts/pb/run.mjs recover --port 8090
 node scripts/pb/run.mjs refunds --port 8091
 ```
-
