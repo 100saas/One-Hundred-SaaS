@@ -46,6 +46,9 @@ async function main() {
   const kernelFile = path.join(root, 'kernel', 'pocketbase', '_shared', 'pb_hooks', '_shared', 'kernel.js')
   await fs.access(toolsDir)
   await fs.access(kernelFile)
+  await fs.access(path.join(root, 'docs', 'ENDPOINTS.md')).catch(() => {
+    throw new Error('Missing docs/ENDPOINTS.md (run node scripts/generate_endpoints_index.mjs)')
+  })
 
   const toolSlugs = (await fs.readdir(toolsDir, { withFileTypes: true }))
     .filter((d) => d.isDirectory())
@@ -59,6 +62,9 @@ async function main() {
     const base = path.join(toolsDir, slug, 'pocketbase')
     await fs.access(path.join(base, 'pb_hooks'))
     await fs.access(path.join(base, 'pb_migrations'))
+    await fs.access(path.join(toolsDir, slug, 'README.md')).catch(() => {
+      throw new Error(`Missing tools/${slug}/README.md`)
+    })
   }
 
   // Shallow secret scan
