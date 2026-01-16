@@ -1,10 +1,6 @@
 # Ref.100SaaS (Reference Checks) — PocketBase schema
 
-Source of truth: `NEW_PRD/01_50_BATCH.md` for Tool 43.
-
 ## Shared Kernel collections (mandatory)
-
-See: `NEW_PRD/00_SHARED_KERNEL.md`
 
 ## Tool collections
 

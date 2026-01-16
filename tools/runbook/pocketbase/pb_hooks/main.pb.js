@@ -1,5 +1,4 @@
 // Runbook.100SaaS (Tool 48) — PocketBase hooks
-// Subdomain: runbook.100saas.com
 //
 // Implements:
 // - Shared Kernel: RevenueCat entitlement sync webhook

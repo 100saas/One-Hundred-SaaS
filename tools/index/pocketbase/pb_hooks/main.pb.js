@@ -1,5 +1,4 @@
 // Index.100SaaS (Tool 35) — PocketBase hooks
-// Subdomain: index.100saas.com
 //
 // Implements:
 // - Shared Kernel: RevenueCat entitlement sync webhook

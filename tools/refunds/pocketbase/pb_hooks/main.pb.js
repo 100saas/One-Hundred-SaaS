@@ -1,5 +1,4 @@
 // Refunds.100SaaS (Tool 4) — PocketBase hooks
-// Subdomain: refunds.100saas.com
 //
 // Implements:
 // - Shared Kernel: RevenueCat entitlement sync webhook

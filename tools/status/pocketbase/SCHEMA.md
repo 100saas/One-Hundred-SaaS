@@ -1,10 +1,6 @@
 # Status.100SaaS (Status Pages) — PocketBase schema
 
-Source of truth: `NEW_PRD/01_50_BATCH.md` for Tool 17.
-
 ## Shared Kernel collections (mandatory)
-
-See: `NEW_PRD/00_SHARED_KERNEL.md`
 
 ## Tool collections
 
@@ -30,4 +26,3 @@ See: `NEW_PRD/00_SHARED_KERNEL.md`
 ## Notes
 
 - `tenant_slug` is added to support public pages without making `tenants` public.
-

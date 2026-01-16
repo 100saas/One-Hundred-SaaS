@@ -1,5 +1,4 @@
 // Env.100SaaS (Tool 47) — PocketBase hooks
-// Subdomain: env.100saas.com
 //
 // Implements:
 // - Shared Kernel: RevenueCat entitlement sync webhook

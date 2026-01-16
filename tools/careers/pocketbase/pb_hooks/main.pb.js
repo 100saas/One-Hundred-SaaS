@@ -1,5 +1,4 @@
 // Careers.100SaaS (Tool 44) — PocketBase hooks
-// Subdomain: careers.100saas.com
 //
 // Implements:
 // - Shared Kernel: RevenueCat entitlement sync webhook

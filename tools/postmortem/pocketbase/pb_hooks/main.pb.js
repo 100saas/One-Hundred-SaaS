@@ -1,5 +1,4 @@
 // Postmortem.100SaaS (Tool 49) — PocketBase hooks
-// Subdomain: postmortem.100saas.com
 //
 // Implements:
 // - Shared Kernel: RevenueCat entitlement sync webhook

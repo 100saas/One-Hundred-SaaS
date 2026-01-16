@@ -1,10 +1,6 @@
 # Churn.100SaaS (Exit Surveys) — PocketBase schema
 
-Source of truth: `NEW_PRD/01_50_BATCH.md` for Tool 14.
-
 ## Shared Kernel collections (mandatory)
-
-See: `NEW_PRD/00_SHARED_KERNEL.md`
 
 ## Tool collections
 
@@ -29,8 +25,6 @@ See: `NEW_PRD/00_SHARED_KERNEL.md`
 ## Widget hosting
 
 Widget script:
-- `NEW_PRD/tools/churn-widget/public/widget.js`
 
 Embed:
 `<script src="https://churn.example.com/widget.js?id=TENANT_ID" defer></script>`
-

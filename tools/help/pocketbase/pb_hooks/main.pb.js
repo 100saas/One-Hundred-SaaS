@@ -1,5 +1,4 @@
 // Help.100SaaS (Tool 20) — PocketBase hooks
-// Subdomain: help.100saas.com
 //
 // Implements:
 // - Shared Kernel: RevenueCat entitlement sync webhook
