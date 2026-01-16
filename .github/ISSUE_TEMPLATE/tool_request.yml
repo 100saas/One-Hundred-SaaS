@@ -1,0 +1,59 @@
+name: Tool request
+description: Propose a new tool to add to the suite
+title: "[tool request]: "
+labels:
+  - "type:feature"
+  - "status:triage"
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Before you file this, please consider posting to Discussions first:
+        - https://github.com/100saas/One-Hundred-SaaS/discussions/1
+        - Template: https://github.com/100saas/One-Hundred-SaaS/discussions/8
+
+  - type: textarea
+    id: problem
+    attributes:
+      label: Problem
+      description: What pain are you trying to solve?
+      placeholder: "I need to..."
+    validations:
+      required: true
+
+  - type: textarea
+    id: who
+    attributes:
+      label: Who it's for
+      description: Role + company size + context
+      placeholder: "Solo founder / small SaaS / agency..."
+    validations:
+      required: true
+
+  - type: textarea
+    id: workflow
+    attributes:
+      label: Workflow (3–7 steps)
+      description: Describe the end-to-end flow the tool should support.
+      placeholder: |
+        1) ...
+        2) ...
+        3) ...
+    validations:
+      required: true
+
+  - type: input
+    id: competitor
+    attributes:
+      label: Existing SaaS you're replacing (optional)
+      description: Link a competitor if you have one.
+      placeholder: "https://..."
+
+  - type: textarea
+    id: done
+    attributes:
+      label: What does “done” look like?
+      placeholder: "If the tool can do X/Y/Z..."
+    validations:
+      required: true
+
