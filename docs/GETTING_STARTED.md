@@ -43,6 +43,11 @@ node scripts/verify_repo.mjs
 - Endpoint hardening (return 4xx/503, avoid 500s)
 - Better local-run workflow (scripts/docs)
 
+## Stack standard (important)
+
+When adding UI, use the repo’s default stack:
+- `docs/STACK.md`
+
 ## Where to ask questions
 
 - Discussions: `https://github.com/100saas/One-Hundred-SaaS/discussions`
