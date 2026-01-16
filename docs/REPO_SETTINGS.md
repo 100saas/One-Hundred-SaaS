@@ -30,8 +30,9 @@ This repo is public. These settings are chosen to keep contributions safe and th
 - Dismiss stale approvals: **on**
 - Require conversation resolution: **on**
 - Require linear history: **on**
-- Require status checks to pass: **on**
-  - Required check: `verify` (from `.github/workflows/ci.yml`)
+- Require status checks to pass: **later** (paused)
+  - GitHub rulesets can be finicky until Actions permissions + a first successful workflow run exist.
+  - For now: rely on PR-only merges + conversation resolution + linear history + force-push/deletion blocks.
 
 ## Safety rails
 
@@ -39,3 +40,9 @@ This repo is public. These settings are chosen to keep contributions safe and th
   - `tools/*` structure exists
   - basic “no secrets” scan passes
 
+## Reminder (re-enable later)
+
+When ready, re-enable required status checks on `main`:
+1) Ensure Actions permissions allow GitHub-hosted actions (e.g. `actions/checkout`, `actions/setup-node`).
+2) Trigger at least one successful `ci` run on `main`.
+3) Add required check `verify` (or `ci / verify` depending on UI).
